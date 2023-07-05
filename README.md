@@ -4,3 +4,5 @@ B站精译视频(目前只翻译到了第四集):[【中字】The Missing Semest
 
 第一讲:[课程概览与shell](shell.md)
 
+第二讲:[shell脚本与工具](scpNtools.md)
+
