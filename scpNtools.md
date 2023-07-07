@@ -172,7 +172,7 @@ $ find . -type f -name "*.html" -print0 | xargs -0 tar -czf "output2.tar.gz"
 	-rwxr-xr-- 1 merose merose 153 Jul  4 21:55 ./caller.sh
 	```
 
-	`hello.txt`和`./hello.txt`实际上指向同一个文件，但是在结果中出现了两次，说明这样使用`-exec`实际上会将两个命令(find/ls)的结果连接在一次，并不会将find的结果传给ls再进行排序
+	`out.txt`和`./out.txt`实际上指向同一个文件，但是在结果中出现了两次，说明这样使用`-exec`实际上会将两个命令(find/ls)的结果连接在一次，并不会将find的结果传给ls再进行排序
 
 	所以直接使用管道
 
